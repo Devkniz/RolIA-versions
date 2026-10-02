@@ -13,3 +13,13 @@ Ce dépôt ne contient que les installeurs publiés : télécharge la dernière 
 **macOS** : pas encore publié.
 
 Ensuite : Réglages › Accès à l’IA, puis la rubrique **Guide** dans l’application.
+
+## Documentation
+
+Le **[wiki](../../wiki)** explique tout :
+
+- [Installation](../../wiki/Installation) et [Premiers pas](../../wiki/Premiers-pas) ;
+- la liste des [Fonctionnalités](../../wiki/Fonctionnalités) ;
+- une page par rubrique : agents, propositions, canon, frise, personnages, cartes, mode table, images avec ComfyUI, connecteur Claude Desktop ;
+- le [Dépannage](../../wiki/Dépannage) ;
+- l’[Historique des versions](../../wiki/Historique-des-versions).
