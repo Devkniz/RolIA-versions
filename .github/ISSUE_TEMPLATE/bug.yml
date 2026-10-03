@@ -1,0 +1,45 @@
+name: Signaler un bug
+description: Quelque chose ne marche pas comme prévu dans RolIA.
+title: "[Bug] "
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Merci ! Ce formulaire est public : n'y colle **jamais de clé API**, ni rien de ta campagne que tu veux garder pour toi.
+        Le bouton « Signaler un bug » de RolIA remplit seul la version, le système et l'accès à l'IA.
+  - type: textarea
+    id: probleme
+    attributes:
+      label: Que s'est-il passé ?
+      description: Ce que tu as vu, et le message d'erreur s'il y en a un (copie le texte, ou ajoute une capture d'écran).
+    validations:
+      required: true
+  - type: textarea
+    id: etapes
+    attributes:
+      label: Comment le refaire ?
+      description: Les étapes, dans l'ordre. « Je ne sais pas » est une réponse valable.
+      placeholder: |
+        1. Ouvrir Réglages › Accès à l'IA
+        2. Coller la clé
+        3. Cliquer « Enregistrer »
+  - type: textarea
+    id: attendu
+    attributes:
+      label: Qu'attendais-tu ?
+  - type: input
+    id: version
+    attributes:
+      label: Version de RolIA
+      description: En bas du menu de gauche.
+    validations:
+      required: true
+  - type: input
+    id: systeme
+    attributes:
+      label: Système
+  - type: input
+    id: ia
+    attributes:
+      label: Accès à l'IA
