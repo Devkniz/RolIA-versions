@@ -1,0 +1,5 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Documentation (wiki)
+    url: https://github.com/Devkniz/RolIA-versions/wiki
+    about: Installation, premiers pas, dépannage.
