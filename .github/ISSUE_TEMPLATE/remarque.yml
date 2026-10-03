@@ -1,0 +1,39 @@
+name: Faire une remarque
+description: Une idée, une amélioration, quelque chose de pas clair.
+title: "[Remarque] "
+labels: ["remarque"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Merci ! Ce formulaire est public : n'y colle **jamais de clé API**, ni rien de ta campagne que tu veux garder pour toi.
+  - type: dropdown
+    id: genre
+    attributes:
+      label: C'est plutôt…
+      options:
+        - Une idée de fonctionnalité
+        - Une amélioration de l'existant
+        - Quelque chose de pas clair
+        - Autre
+    validations:
+      required: true
+  - type: textarea
+    id: remarque
+    attributes:
+      label: Ta remarque
+      description: Ce que tu voudrais, et pour quoi faire à ta table. Une capture d'écran aide souvent.
+    validations:
+      required: true
+  - type: input
+    id: version
+    attributes:
+      label: Version de RolIA
+  - type: input
+    id: systeme
+    attributes:
+      label: Système
+  - type: input
+    id: ia
+    attributes:
+      label: Accès à l'IA
