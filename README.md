@@ -23,3 +23,7 @@ Le **[wiki](../../wiki)** explique tout :
 - une page par rubrique : agents, propositions, canon, frise, personnages, cartes, mode table, images avec ComfyUI, connecteur Claude Desktop ;
 - le [Dépannage](../../wiki/Dépannage) ;
 - l’[Historique des versions](../../wiki/Historique-des-versions).
+
+## Un bug, une idée ?
+
+Dans RolIA, en bas du menu de gauche : **Signaler un bug** ou **Faire une remarque**. Ou directement ici : [nouvelle issue](../../issues/new/choose). Formulaires publics : n’y colle jamais de clé API.
